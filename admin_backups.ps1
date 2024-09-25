@@ -1,5 +1,4 @@
 ﻿function backupTotal{
-
             try{
             $rutaPorDefecto="backup\total_"
             $rutaOrigen= Read-host "Introduce la direccion de origen del que quieres hacer backup" 
@@ -27,7 +26,6 @@
 
 
 function backupIncremental{
-
             try{
                 $rutaPorDefecto="\Incremental_"
                 $rutaOrigen=read-host "Introduce la direccion de origen del que quieres hacer el backup" 
@@ -51,7 +49,6 @@ function backupIncremental{
                  write-host "No se ha podido hacer el backup incremental"
                   }
 }
-
 
 do{
     clear-host
