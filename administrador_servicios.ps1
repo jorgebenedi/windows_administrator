@@ -73,9 +73,7 @@ function deleteService(){
 
 
 
-do
-{
-
+do{
     clear-host
     write-host -BackgroundColor Red -ForegroundColor Yellow "`t`t Administracions servicios"
     write-host -BackgroundColor Red -ForegroundColor Yellow "`t`t========================="
