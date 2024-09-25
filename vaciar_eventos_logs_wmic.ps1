@@ -11,7 +11,6 @@
 }
 
 function BorrarAlmacenes{
-
     try{
        
         Write-Host "Lista de almacenes"
@@ -30,8 +29,7 @@ function BorrarAlmacenes{
         write-host "No se pudo borrar el almacen de eventos tal vez no exista"
     
     } 
-
-  }
+}
 
 
 do{
