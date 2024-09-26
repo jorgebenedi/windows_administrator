@@ -10,3 +10,6 @@ Permite realizar copias de seguridad (backups) de archivos y directorios en Wind
 Backup Total: Crea una copia completa de la carpeta de origen en un destino especificado, organizando el backup en una nueva carpeta con la fecha actual.
 Backup Incremental: Copia solo los archivos nuevos o modificados desde la última copia de seguridad total, comparando el contenido de la carpeta de origen con el backup total.
 Incluye un menú interactivo para seleccionar la opción deseada o salir del programa.
+
+ADMIN_PUNTOS_RESTAURACIÓN
+permite gestionar puntos de restauración en Windows. Incluye funciones para mostrar, crear, restaurar y borrar puntos de restauración. Ofrece un menú interactivo para que el usuario seleccione las acciones deseadas, y valida el estado del servicio VSS (Volume Shadow Copy Service) antes de realizar operaciones.
