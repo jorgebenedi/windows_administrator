@@ -16,7 +16,7 @@ permite gestionar puntos de restauración en Windows. Incluye funciones para mos
 
 ADMIN_SERVICES permite a los usuarios listar, mostrar detalles, iniciar, detener, crear y eliminar servicios de Windows. A través de un menú, los usuarios pueden gestionar los servicios del sistema, incluyendo filtrado por estado y asignación de tipos de inicio.
 
-ADMIN_WINDOWS gestionar procesos en Windows. Ofrece funciones para iniciar, detener, suspender procesos, ver el estado de los hilos de un proceso y cambiar sus prioridades. Presenta un menú para facilitar la administración de los procesos y sus hilos asociados.
+ADMIN_WINDOWS permite gestionar procesos en Windows. Ofrece funciones para iniciar, detener, suspender procesos, ver el estado de los hilos de un proceso y cambiar sus prioridades. Presenta un menú para facilitar la administración de los procesos y sus hilos asociados.
 
 ADMIN_LOGS permite mostrar y borrar eventos de los almacenes de logs en Windows. Proporciona una lista de almacenes disponibles y permite al usuario borrar eventos de un almacén específico, mostrando detalles como el tamaño del archivo, la última modificación y el número de registros antes de realizar la acción.
 
