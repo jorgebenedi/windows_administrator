@@ -11,11 +11,8 @@ function listServices {
 }
 
 function showDetailsOfService() { 
-    
     $nombreservicio = GetNameService
     Get-Service -Name $nombreservicio | Format-List
-   
-
 }
 
 
@@ -39,8 +36,6 @@ function startService {
     Start-Service -Name $nombreservicio 
     Write-Host "El servicio '$nombreservicio' se ha iniciado correctamente."
     } catch { Write-Host "Error al iniciar el servicio '$nombreservicio': $_" }
-
-
 }
 
 
@@ -48,8 +43,6 @@ function createService {
     $nombreservicio = GetNameService
     write-host "Tipos de inicio"; Get-Service | Select-Object -ExpandProperty StartType -Unique 
     $tipoInicio = Read-Host("Introduce el tipo de inicio")
-
-    
     $params = @{
     Name = "$nombreservicio"
     DisplayName = "Test Service"
