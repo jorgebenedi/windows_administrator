@@ -1,3 +1,5 @@
+# windows_administrator
+
 ADMIN_LOGS  
 allows you to display and delete events from Windows log stores. It provides a list of available stores and allows the user to delete events from a specific store, showing details like the file size, last modification, and the number of records before performing the action.
 
