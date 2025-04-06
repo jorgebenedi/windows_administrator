@@ -70,12 +70,12 @@ do{
     clear-host
     write-host -BackgroundColor Red -ForegroundColor Yellow "`t`t Administracions servicios"
     write-host -BackgroundColor Red -ForegroundColor Yellow "`t`t========================="
-    Write-Host "`t`t 1.- Listar servicios por estado"
-    Write-Host "`t`t 2.- Mostrar detalles servicio"
-    Write-Host "`t`t 3.- Parar servicio"
-    Write-Host "`t`t 4.- Arrancar servicio"
-    Write-Host "`t`t 5.- Crear servicio" 
-    Write-Host "`t`t 6.- Borrar servicio"
+    Write-Host "`t`t 1. Listar servicios por estado"
+    Write-Host "`t`t 2. Mostrar detalles servicio"
+    Write-Host "`t`t 3. Parar servicio"
+    Write-Host "`t`t 4. Arrancar servicio"
+    Write-Host "`t`t 5. Crear servicio" 
+    Write-Host "`t`t 6. Borrar servicio"
     Write-Host "`t`t 7. ---Salir---"
     [int]$opcion=Read-Host "`t`t `opcion"
     switch ($opcion){
