@@ -28,9 +28,9 @@ function BorrarAlmacenes{
 do{
     Clear-Host
     Write-Host "=====Borrar-eventos-log====="
-    Write-Host "1-Mostrar almacenes"
-    Write-Host "2-Borrar almacenes"
-    Write-Host "3-Salir"
+    Write-Host "1. Mostrar almacenes"
+    Write-Host "2. Borrar almacenes"
+    Write-Host "3. Salir"
     [int]$option = Read-Host "Introduce una opcion"
     switch ($option)
     {
