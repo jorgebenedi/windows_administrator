@@ -74,13 +74,13 @@ function cambiarPrioridadProcesosHilos {
      clear-host
      write-host -backgroundcolor red -foregroundcolor yellow "`t`t Admin process/threads"
      write-host -backgroundcolor red -foregroundcolor yellow "`t`t ======================"
-     write-host "`t`t 1-Arrancar proceso"
-     write-host "`t`t 2-Parar proceso"
-     write-host "`t`t 3-Suspender proceso"
-     write-host "`t`t 4-Ver estado hilos de un proceso"
-     write-host "`t`t 5-Cambiar prioridad de hilos de un proceso"
-     write-host "`t`t 6-Cambiar prioridad de un proceso"
-     write-host "`t`t 7-Salir"
+     write-host "`t`t 1. Arrancar proceso"
+     write-host "`t`t 2. Parar proceso"
+     write-host "`t`t 3. Suspender proceso"
+     write-host "`t`t 4. Ver estado hilos de un proceso"
+     write-host "`t`t 5. Cambiar prioridad de hilos de un proceso"
+     write-host "`t`t 6. Cambiar prioridad de un proceso"
+     write-host "`t`t 7. Salir"
      [int]$opcion=Read-Host "opcion"
 
         switch($opcion)
