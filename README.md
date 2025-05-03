@@ -18,6 +18,6 @@ incremental_backup: Copies only new or modified files since the last full backup
 
 admin_shadow: manages restore points in Windows. Functions include listing, creating, restoring, and deleting restore points. A menu guides user actions, and the VSS (Volume Shadow Copy Service) status is checked before operations.
 
-administrator_services: allows users to list, inspect, start, stop, create, and delete Windows services. Features a menu for system service management, including state filtering and startup type assignment.
+admin_services: allows users to list, inspect, start, stop, create, and delete Windows services. Features a menu for system service management, including state filtering and startup type assignment.
 
-administrator_windows: handles Windows process management. Functions include starting, stopping, suspending processes, viewing thread statuses, and adjusting priorities. A menu simplifies process and thread management.
+admin_windows: handles Windows process management. Functions include starting, stopping, suspending processes, viewing thread statuses, and adjusting priorities. A menu simplifies process and thread management.
